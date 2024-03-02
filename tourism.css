@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.bg-container{
+    background-image: url("assets/sunset-sea.jpg");
+    height: 500px;
+  
+    background-size: contain; /* auto , cover - it will cover the Image with The Height,  
+    contain - will contain the Image with The Height*/
+    background-repeat: no-repeat; 
+    /* repeat , 
+    no-repeat - it will not repeat,  
+    contain - will contain the Image with The Height*/;
+}
+
+/* withour content ,background img not visible
+to make it visible,height property is used to put bg img
+height,bg size,bg repeat 
+.card{
+    background-color: aqua;
+    background-image: url("./assets/sunset-sea.jpg");
+    height: 500px;
+    background-size: contain;  
+        /* auto
+        cover-it will cover the image with the height
+        contain-it will contain the image with the height */
+/* background-repeat: no-repeat; */
+       /* repeat , 
+        no-repeat - it will not repeat,  
+        contain - will contain the Image with The Height*/
+
+.heading {
+/* lowercase uppercase  */
+ text-transform: uppercase;
+ font-family: "Poppins", sans-serif;
+ font-size: 15px;
+ font-style: italic;
+ background-color: green;
+ /**padding: 10px;**/ /* Inside the Box Model */
+  padding-left: 0px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.paragraph {
+    color: #fff;
+    /* color picker */
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-top: 100px;
+    /* Space created bw heading and para */
+  }
+
+.btn-button {
+    background-color: green;
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    opacity: 0.4;
+  }
+
+  /* 
+   px 
+   em - 1em --> 16px  
+   vh - viewport Height - full Height [ 100% == 100vh ]
+   vw - viewport Width - full width [ 100% == 100vw ]
+*/
+
+
+.card{
+  height: 50vh;
+  width: 50vw;
+  /* border: 10px solid red; */
+  background-color: aqua;
+  /* background-color: #f20a0a; */
+  /*margin: 10px;*/ /* All Sides*/
+  margin-left: 5px;
+  margin-right: 2em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
